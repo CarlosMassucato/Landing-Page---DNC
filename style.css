@@ -1,0 +1,200 @@
+*{
+
+    margin: 0px;
+    font-family: 'inter';
+
+}
+
+#logo{
+
+    margin-left: 50px;
+    margin-top: 35px;
+
+}
+
+#tiutlo-menusuperior{
+
+    margin-left: 170px;
+    margin-top: 65px;
+
+}
+
+#texto-menusuperior{
+
+    margin-left: 170px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+
+}
+
+
+#menusuperior{
+
+    background-image: url(imagens/fundomenusuperior.svg);
+    color: aliceblue;
+
+}
+
+#menuinformacional{
+
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.icone{
+
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+
+}
+
+.textoinformativo{
+
+    display: flex;
+    align-items: center;
+
+}
+
+#video{
+
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+    
+}
+
+#titulovideo{
+
+    color: #247BA0;
+    margin-top: 75px;
+
+}
+
+#textovideo{
+
+    color: #383838;
+
+}
+
+#tela{
+
+    margin: 50px 25px 50px 100px;
+
+
+}
+
+#carrossel{
+
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+
+#titulocarrossel{
+
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#divcards{
+
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.card{
+
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#setaesquerda{
+
+    display: none;
+
+}
+
+#samanta{
+
+    display: none;
+
+}
+
+.seta{
+
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover{
+
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
+
+}
+
+#formulario{
+
+    text-align: center;
+
+}
+
+#tituloformulario{
+
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 25px;
+    color: #383838;
+
+}
+
+input{
+
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+
+    background-color: #247BA0;
+    border: 0px;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    background-color: #3291b9;
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 40px 0px #0c506da1;
+
+}
+
+#maria{
+
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+
+}
